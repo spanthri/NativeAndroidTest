@@ -11,13 +11,13 @@ public final class R {
 		public static final int oauthScopes = 0x7f0b0000;
 	}
 	public static final class color {
-		public static final int sf__forgot_passcode_text = 0x7f0c0036;
-		public static final int sf__hint_color = 0x7f0c0037;
-		public static final int sf__passcode_bg = 0x7f0c0038;
-		public static final int sf__passcode_error_text = 0x7f0c0039;
-		public static final int sf__passcode_layout_bg = 0x7f0c003a;
-		public static final int sf__success_color = 0x7f0c003b;
-		public static final int sf__warning_color = 0x7f0c003c;
+		public static final int sf__forgot_passcode_text = 0x7f0c0038;
+		public static final int sf__hint_color = 0x7f0c0039;
+		public static final int sf__passcode_bg = 0x7f0c003a;
+		public static final int sf__passcode_error_text = 0x7f0c003b;
+		public static final int sf__passcode_layout_bg = 0x7f0c003c;
+		public static final int sf__success_color = 0x7f0c003d;
+		public static final int sf__warning_color = 0x7f0c003e;
 	}
 	public static final class dimen {
 		public static final int sf__button_font_size = 0x7f08004d;
@@ -65,44 +65,44 @@ public final class R {
 	}
 	public static final class id {
 		public static final int buttonPanel = 0x7f0d002b;
-		public static final int fingerprint_container = 0x7f0d006d;
-		public static final int manage_space_layout = 0x7f0d0074;
-		public static final int sf__accounts_group = 0x7f0d0065;
-		public static final int sf__add_account_button = 0x7f0d0067;
-		public static final int sf__apply_button = 0x7f0d006b;
-		public static final int sf__auth_container_phone = 0x7f0d0072;
-		public static final int sf__cancel_button = 0x7f0d006c;
-		public static final int sf__fingerprint_description = 0x7f0d006e;
-		public static final int sf__fingerprint_icon = 0x7f0d006f;
-		public static final int sf__fingerprint_status = 0x7f0d0070;
-		public static final int sf__layout_root = 0x7f0d0068;
-		public static final int sf__menu_clear_cookies = 0x7f0d007e;
-		public static final int sf__menu_clear_custom_url = 0x7f0d007c;
-		public static final int sf__menu_pick_server = 0x7f0d007d;
-		public static final int sf__menu_reload = 0x7f0d007f;
-		public static final int sf__oauth_webview = 0x7f0d0073;
-		public static final int sf__passcode_error = 0x7f0d0078;
-		public static final int sf__passcode_forgot = 0x7f0d0077;
-		public static final int sf__passcode_instructions = 0x7f0d0079;
-		public static final int sf__passcode_text = 0x7f0d0076;
-		public static final int sf__passcode_title = 0x7f0d0075;
-		public static final int sf__picker_custom_label = 0x7f0d0069;
-		public static final int sf__picker_custom_url = 0x7f0d006a;
-		public static final int sf__server_list_group = 0x7f0d007a;
-		public static final int sf__show_custom_url_edit = 0x7f0d007b;
-		public static final int sf__switcher_apply_button = 0x7f0d0066;
-		public static final int sf__use_password_button = 0x7f0d0071;
+		public static final int fingerprint_container = 0x7f0d0070;
+		public static final int manage_space_layout = 0x7f0d0077;
+		public static final int sf__accounts_group = 0x7f0d0068;
+		public static final int sf__add_account_button = 0x7f0d006a;
+		public static final int sf__apply_button = 0x7f0d006e;
+		public static final int sf__auth_container_phone = 0x7f0d0075;
+		public static final int sf__cancel_button = 0x7f0d006f;
+		public static final int sf__fingerprint_description = 0x7f0d0071;
+		public static final int sf__fingerprint_icon = 0x7f0d0072;
+		public static final int sf__fingerprint_status = 0x7f0d0073;
+		public static final int sf__layout_root = 0x7f0d006b;
+		public static final int sf__menu_clear_cookies = 0x7f0d0081;
+		public static final int sf__menu_clear_custom_url = 0x7f0d007f;
+		public static final int sf__menu_pick_server = 0x7f0d0080;
+		public static final int sf__menu_reload = 0x7f0d0082;
+		public static final int sf__oauth_webview = 0x7f0d0076;
+		public static final int sf__passcode_error = 0x7f0d007b;
+		public static final int sf__passcode_forgot = 0x7f0d007a;
+		public static final int sf__passcode_instructions = 0x7f0d007c;
+		public static final int sf__passcode_text = 0x7f0d0079;
+		public static final int sf__passcode_title = 0x7f0d0078;
+		public static final int sf__picker_custom_label = 0x7f0d006c;
+		public static final int sf__picker_custom_url = 0x7f0d006d;
+		public static final int sf__server_list_group = 0x7f0d007d;
+		public static final int sf__show_custom_url_edit = 0x7f0d007e;
+		public static final int sf__switcher_apply_button = 0x7f0d0069;
+		public static final int sf__use_password_button = 0x7f0d0074;
 		public static final int spacer = 0x7f0d002c;
 	}
 	public static final class layout {
-		public static final int sf__account_switcher = 0x7f030028;
-		public static final int sf__custom_server_url = 0x7f030029;
-		public static final int sf__fingerprint_dialog = 0x7f03002a;
-		public static final int sf__login = 0x7f03002b;
-		public static final int sf__manage_space = 0x7f03002c;
-		public static final int sf__passcode = 0x7f03002d;
-		public static final int sf__server_picker = 0x7f03002e;
-		public static final int sf__server_picker_list = 0x7f03002f;
+		public static final int sf__account_switcher = 0x7f03002a;
+		public static final int sf__custom_server_url = 0x7f03002b;
+		public static final int sf__fingerprint_dialog = 0x7f03002c;
+		public static final int sf__login = 0x7f03002d;
+		public static final int sf__manage_space = 0x7f03002e;
+		public static final int sf__passcode = 0x7f03002f;
+		public static final int sf__server_picker = 0x7f030030;
+		public static final int sf__server_picker_list = 0x7f030031;
 	}
 	public static final class menu {
 		public static final int sf__clear_custom_url = 0x7f0e0000;

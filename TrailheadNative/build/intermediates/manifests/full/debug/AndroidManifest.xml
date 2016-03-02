@@ -53,6 +53,10 @@
             </intent-filter>
         </activity>
         <activity android:name="com.coke.MainActivity" />
+        <activity
+            android:name="com.coke.UnAuthenticatedActivity"
+            android:label="Outlets" >
+        </activity>
         <!-- Metadata for supported app restrictions -->
         <meta-data
             android:name="android.content.APP_RESTRICTIONS"
