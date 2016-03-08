@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.coke.adopters.AccountListAdapter;
@@ -37,25 +38,22 @@ public class UnAuthenticatedActivity extends Activity implements ResultInterface
 
     }
     public AccountListAdapter getListAdapter() {
+
         return accountListAdapter;
     }
 
-//    @Override
-//    public void processFinish(ArrayList arrayList) {
-//        ListView lstView = new ListView(this);
-//       //Adapter adapter = new ArrayAdapter().add(arrayList);
-//        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-//                android.R.layout.simple_list_item_1, android.R.id.text1, arrayList);
-//
-//       lstView.setAdapter(adapter);
-//        System.out.println("ArrayList "+arrayList);
-//        setContentView(lstView);
-//
-//    }
+
 
     @Override
-    public void processFinish(Accounts[] listDatat) {
+    public void processFinish(Accounts[] listDatat,String userName) {
+
         ListView listView = new ListView(this);
+        TextView tv = new TextView(this);
+        tv.setBackgroundColor(getResources().getColor(R.color.sf__success_color));
+        tv.setTextSize(16);
+        tv.setText(userName);
+        listView.addHeaderView(tv);
+
         accountListAdapter = new AccountListAdapter(this, listDatat);
         listView.setAdapter(accountListAdapter);
         setContentView(listView);

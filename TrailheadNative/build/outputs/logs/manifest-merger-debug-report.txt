@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:2:1-50:12
+ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:2:1-51:12
 	xmlns:android
 		ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:2:11-69
 	package
@@ -32,21 +32,22 @@ uses-permission#com.coke.C2D_MESSAGE
 ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:21:5-60
 	android:name
 		ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:21:22-57
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:23:5-89
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:22:5-75
+MERGED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:23:5-75
 	android:name
-		ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:23:30-86
-android:uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:24:5-83
+		ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:22:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:23:5-81
 	android:name
-		ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:24:30-80
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:25:5-88
+		ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:23:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:24:5-80
 	android:name
-		ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:25:30-85
+		ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:24:22-77
 application
-ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:27:5-48:19
-MERGED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:23:5-103:19
+ADDED from /Coke/development/Native/TrailheadNative/AndroidManifest.xml:27:5-49:19
+MERGED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:25:5-105:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 	android:label
@@ -126,110 +127,110 @@ ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/
 	android:name
 		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:21:29-78
 meta-data#android.content.APP_RESTRICTIONS
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:26:9-28:56
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:28:9-30:56
 	android:resource
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:28:13-53
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:30:13-53
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:27:13-60
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:29:13-60
 service#com.salesforce.androidsdk.auth.AuthenticatorService
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:31:9-41:19
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:33:9-43:19
 	android:exported
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:33:13-36
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:32:13-79
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:34:13-79
 intent-filter#android.accounts.AccountAuthenticator
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:34:13-36:29
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:36:13-38:29
 action#android.accounts.AccountAuthenticator
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:35:17-80
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:37:17-80
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:35:25-77
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:37:25-77
 meta-data#android.accounts.AccountAuthenticator
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:38:13-40:57
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:40:13-42:57
 	android:resource
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:40:17-54
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:42:17-54
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:39:17-69
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:41:17-69
 activity#com.salesforce.androidsdk.ui.LoginActivity
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:44:9-46:67
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:46:9-48:67
 	android:theme
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:46:13-64
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:48:13-64
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:45:13-70
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:47:13-70
 activity#com.salesforce.androidsdk.ui.PasscodeActivity
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:49:9-51:67
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:51:9-53:67
 	android:theme
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:51:13-64
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:53:13-64
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:50:13-73
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:52:13-73
 activity#com.salesforce.androidsdk.ui.ManageSpaceActivity
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:54:9-57:67
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:56:9-59:67
 	android:theme
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:57:13-64
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:59:13-64
 	android:excludeFromRecents
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:56:13-46
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:58:13-46
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:55:13-76
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:57:13-76
 activity#com.salesforce.androidsdk.ui.ServerPickerActivity
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:60:9-63:67
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:62:9-65:67
 	android:theme
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:63:13-64
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:65:13-64
 	android:excludeFromRecents
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:62:13-46
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:64:13-46
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:61:13-77
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:63:13-77
 activity#com.salesforce.androidsdk.ui.AccountSwitcherActivity
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:66:9-69:67
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:68:9-71:67
 	android:theme
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:69:13-64
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:71:13-64
 	android:excludeFromRecents
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:68:13-46
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:70:13-46
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:67:13-80
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:69:13-80
 receiver#com.salesforce.androidsdk.push.PushBroadcastReceiver
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:75:9-89:20
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:77:9-91:20
 	android:exported
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:77:13-36
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:79:13-36
 	android:permission
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:78:13-73
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:80:13-73
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:76:13-80
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:78:13-80
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:79:13-83:29
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:81:13-85:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:80:17-81
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:82:17-81
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:80:25-78
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:82:25-78
 category#${applicationId}
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:82:17-61
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:84:17-61
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:82:27-58
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:84:27-58
 intent-filter#${applicationId}+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:84:13-88:29
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:86:13-90:29
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:85:17-86
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:87:17-86
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:85:25-83
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:87:25-83
 receiver#com.salesforce.androidsdk.push.PushService$RetryRegistrationAlarmReceiver
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:90:9-92:40
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:92:9-94:40
 	android:exported
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:92:13-37
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:94:13-37
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:91:13-101
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:93:13-101
 receiver#com.salesforce.androidsdk.push.PushService$SFDCRegistrationRetryAlarmReceiver
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:93:9-95:40
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:95:9-97:40
 	android:exported
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:95:13-37
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:97:13-37
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:94:13-105
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:96:13-105
 receiver#com.salesforce.androidsdk.push.PushService$UnregisterRetryAlarmReceiver
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:96:9-98:40
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:98:9-100:40
 	android:exported
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:98:13-37
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:100:13-37
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:97:13-99
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:99:13-99
 service#com.salesforce.androidsdk.push.PushService
-ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:100:9-102:40
+ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:102:9-104:40
 	android:exported
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:102:13-37
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:104:13-37
 	android:name
-		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:101:13-70
+		ADDED from [Native.forcedroid.libs:SalesforceSDK:unspecified] /Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/AndroidManifest.xml:103:13-70

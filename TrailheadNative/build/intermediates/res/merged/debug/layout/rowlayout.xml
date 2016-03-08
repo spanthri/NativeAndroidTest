@@ -17,7 +17,7 @@
         android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="60px"
+        android:textSize="20dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="2dp"
@@ -27,6 +27,6 @@
         android:id="@+id/txt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="60px" >
+        android:textSize="20dp" >
     </TextView>
 </LinearLayout> <!-- From: file:/Coke/development/Native/TrailheadNative/res/layout/rowlayout.xml -->

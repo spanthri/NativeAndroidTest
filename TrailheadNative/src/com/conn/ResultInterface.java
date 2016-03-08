@@ -11,5 +11,5 @@ import java.util.List;
  * Created by spanthri on 02/03/16.
  */
 public interface ResultInterface {
-    void processFinish( Accounts[] listDatat);
+    void processFinish( Accounts[] listDatat,String userName);
 }

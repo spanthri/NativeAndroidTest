@@ -9,18 +9,18 @@
         <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/library-1.0.19-140bc6aef98e94c00fea81fc7df22f2f798378cb.jar" />
     </item>
     <item
-        jar="/Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jar="/Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-ba9481c10d0384cb1db70e50aa9400f4d64b57cb.jar" />
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/classes-45bbf6d6fb71da84d5d9151bbb0b0ceb71a2fe36.jar" />
     </item>
     <item
-        jar="/Users/spanthri/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.2/3202421d9425ced69919b282afa644e7ef0e8fef/httpmime-4.3.2.jar"
+        jar="/Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
-        <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/httpmime-4.3.2-ff9fb1829410a3593e354fa84367f8f1156db24c.jar" />
+        sha1="fa6d7eea6a80d48a232d87279440fd5d126fa5f4">
+        <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/classes-abaebcf0994dd251279f42f76c56a78db60f5491.jar" />
     </item>
     <item
         jar="/Users/spanthri/android-sdks/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
@@ -30,6 +30,20 @@
         <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-34fe302c3be5429c1e76a2bd18b28f7eef0402d5.jar" />
     </item>
     <item
+        jar="/Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/classes-9e12f4515b090e7f4f448101d0a614abb938195c.jar" />
+    </item>
+    <item
+        jar="/Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-ba9481c10d0384cb1db70e50aa9400f4d64b57cb.jar" />
+    </item>
+    <item
         jar="/Users/spanthri/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -37,25 +51,11 @@
         <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/guava-18.0-187118c8f74b483538575b3f22c5dd0334ab1dd3.jar" />
     </item>
     <item
-        jar="/Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/Native.forcedroid.libs/SalesforceSDK/unspecified/jars/classes.jar"
+        jar="/Users/spanthri/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.2/3202421d9425ced69919b282afa644e7ef0e8fef/httpmime-4.3.2.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="f00e50c0c7d323f619e7c43529b8c59ec29ba5fc">
-        <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/classes-abaebcf0994dd251279f42f76c56a78db60f5491.jar" />
-    </item>
-    <item
-        jar="/Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/classes-45bbf6d6fb71da84d5d9151bbb0b0ceb71a2fe36.jar" />
-    </item>
-    <item
-        jar="/Coke/development/Native/TrailheadNative/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/classes-9e12f4515b090e7f4f448101d0a614abb938195c.jar" />
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Coke/development/Native/TrailheadNative/build/intermediates/pre-dexed/debug/httpmime-4.3.2-ff9fb1829410a3593e354fa84367f8f1156db24c.jar" />
     </item>
 
 </items>

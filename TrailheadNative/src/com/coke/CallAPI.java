@@ -5,6 +5,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import com.coke.restobjects.Accounts;
+import com.conn.RestMethodImpl;
 import com.conn.ResultInterface;
 import com.salesforce.androidsdk.rest.RestRequest;
 
@@ -31,7 +32,7 @@ import java.util.List;
 /**
  * Created by spanthri on 01/03/16.
  */
-class CallApi extends AsyncTask<String, Void, String> {
+class CallApi extends AsyncTask<String, Void, ArrayList> {
     String data ="";
     String content ="";
     URL url ;
@@ -39,48 +40,23 @@ class CallApi extends AsyncTask<String, Void, String> {
     public ResultInterface delegate = null;
 
     @Override
-    protected String doInBackground(String... params) {
+    protected ArrayList doInBackground(String... params) {
         String urlString = params[0]; // URL to call
-        Widget result = new Widget();
-        String resultToDisplay = "";
-
-        HttpClient httpClient = new DefaultHttpClient();
-        HttpContext localContext = new BasicHttpContext();
-        try {
-            url = new URL(params[0]);
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
-        HttpGet httpGet = new HttpGet(url.toString());
-        String text = null;
-        try {
-            //RestRequest restReq = new RestRequest();
-
-            httpGet.setHeader("Content-Type","application/json");
-            HttpResponse response = httpClient.execute(httpGet, localContext);
-
-            HttpEntity entity = response.getEntity();
-
-            text = getResultFromEntity(entity);
-
-        } catch (Exception e) {
-            return e.getLocalizedMessage();
-
-        }
-
-        return text;
-
-
+        ArrayList arryList = RestMethodImpl.getInstance().requestGetURL(urlString);
+        return arryList;
     }
 
 
-    protected void onPostExecute(String results) {
-        if (results!=null) {
+    protected void onPostExecute(ArrayList results) {
+        String responseBody = results.get(1).toString();
+        String userName = results.get(0).toString();
+        if (responseBody!=null) {
+
             Accounts[] accData = null;
             //JSONObject jsonResponse;
             try {
-                System.out.println(" results " +results);
-                JSONArray jsonArry = new JSONArray(results);
+                System.out.println(" responseBody " +responseBody);
+                JSONArray jsonArry = new JSONArray(responseBody);
                 int length = jsonArry.length();
                  accData = new Accounts[length];
                 for (int i=0; i< length ; i++) {
@@ -97,7 +73,7 @@ class CallApi extends AsyncTask<String, Void, String> {
                 e.printStackTrace();
             }
             //delegate.processFinish(listData);
-            delegate.processFinish(accData);
+            delegate.processFinish(accData, ("User Name:" + userName) );
            // ListView et = (ListView)findViewById(R.id.AccountListView);
 
         }
@@ -106,24 +82,6 @@ class CallApi extends AsyncTask<String, Void, String> {
 
 
 
-    protected String getResultFromEntity(HttpEntity entity) throws IllegalStateException, IOException {
-
-        InputStream in = entity.getContent();
-
-        StringBuffer out = new StringBuffer();
-        int n = 1;
-        while (n>0) {
-            byte[] b = new byte[4096];
-
-            n =  in.read(b);
-
-            if (n>0) out.append(new String(b, 0, n));
-
-        }
-
-        return out.toString();
-
-    }
 }
 
 
