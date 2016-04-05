@@ -9,6 +9,8 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.content.Intent;
+import android.view.animation.AlphaAnimation;
+import android.widget.LinearLayout;
 
 import com.coke.Utils.Utils;
 
@@ -18,7 +20,7 @@ public class Main2Activity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-       setPermissions();
+    setPermissions();
 
 
     }
@@ -36,7 +38,7 @@ public class Main2Activity extends Activity {
 
     }
 
-    private boolean  setPermissions() {
+    private void  setPermissions() {
         if (ContextCompat.checkSelfPermission(this,
                 android.Manifest.permission.READ_PHONE_STATE)
                 != PackageManager.PERMISSION_GRANTED) {
@@ -55,16 +57,27 @@ public class Main2Activity extends Activity {
                 ActivityCompat.requestPermissions(this,
                         new String[]{android.Manifest.permission.READ_PHONE_STATE}, MY_PERMISSIONS_REQUEST_READ_PHONE_STATE);
 
-                return true;
+
                 // MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
                 // app-defined int constant. The callback method gets the
                 // result of the request.
             }
 
         }
-        else
-           return true;
-        return  false;
+        else {
+            Utils.setDeviceID(this);
+
+            setContentView(R.layout.activity_main2);
+            LinearLayout layout = (LinearLayout) findViewById(R.id.activity2);
+            AlphaAnimation animation = new AlphaAnimation(0.0f , 1.0f ) ;
+            animation.setFillAfter(true);
+            animation.setDuration(1200);
+//apply the animation ( fade In ) to your LAyout
+            layout.startAnimation(animation);
+
+        }
+
+
     }
 
     @Override
@@ -75,9 +88,15 @@ public class Main2Activity extends Activity {
                 // If request is cancelled, the result arrays are empty.
                 if (grantResults.length > 0
                         && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                       Utils.setDeviceID(this);
+                    Utils.setDeviceID(this);
 
                     setContentView(R.layout.activity_main2);
+                    LinearLayout layout = (LinearLayout) findViewById(R.id.activity2);
+                    AlphaAnimation animation = new AlphaAnimation(0.0f , 1.0f ) ;
+                    animation.setFillAfter(true);
+                    animation.setDuration(1200);
+//apply the animation ( fade In ) to your LAyout
+                    layout.startAnimation(animation);
                     // permission was granted, yay! Do the
                     // contacts-related task you need to do.
 
@@ -86,6 +105,7 @@ public class Main2Activity extends Activity {
                     // permission denied, boo! Disable the
                     // functionality that depends on this permission.
                 }
+
                 return;
             }
 

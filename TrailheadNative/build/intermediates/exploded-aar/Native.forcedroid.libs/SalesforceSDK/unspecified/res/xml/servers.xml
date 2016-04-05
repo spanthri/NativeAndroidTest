@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <servers>
     <server name="Production" url="https://login.salesforce.com"/>
-    <server name="Sandbox" url="https://test.salesforce.com"/>
+    <server name="Production" url="https://socialforceawakens1-developer-edition.na30.force.com"/>
+    <server name="Sandbox" url="https://socialforceawakens1-developer-edition.na30.force.com/services/auth/oauth/00D36000000JfkmEAC/MysocialForce"/>
+    <server name="Sandbox" url="https://login.salesforce.com/services/auth/sso/00D36000000JfkmEAC/MysocialForce"/>
+    <server name="Sandbox" url="https://login.salesforce.com/services/auth/oauth/00D36000000JfkmEAC/MysocialForce"/>
+    <server name="Sandbox" url="https://socialforceawakens1-developer-edition.na30.force.com?community=https://socialforceawakens1-developer-edition.na30.force.com"/>
 </servers>
 <!-- From: file:/Coke/development/Native/forcedroid/libs/SalesforceSDK/res/xml/servers.xml -->

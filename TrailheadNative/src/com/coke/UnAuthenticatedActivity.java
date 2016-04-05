@@ -33,9 +33,6 @@ public class UnAuthenticatedActivity extends Activity implements ResultInterface
         callAPI.delegate = this;
         callAPI.execute(apiURL);
         //callAPI.listData.
-
-
-
     }
     public AccountListAdapter getListAdapter() {
 
@@ -46,11 +43,13 @@ public class UnAuthenticatedActivity extends Activity implements ResultInterface
 
     @Override
     public void processFinish(Accounts[] listDatat,String userName) {
-
+        
         ListView listView = new ListView(this);
+
+        listView.setBackground(getResources().getDrawable(R.drawable.sf__header_bg));
         TextView tv = new TextView(this);
         tv.setBackgroundColor(getResources().getColor(R.color.sf__success_color));
-        tv.setTextSize(16);
+        tv.setTextSize(18);
         tv.setText(userName);
         listView.addHeaderView(tv);
 

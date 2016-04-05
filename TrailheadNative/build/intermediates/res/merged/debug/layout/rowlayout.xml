@@ -5,11 +5,12 @@
 
     <ImageView
         android:id="@+id/icon"
-        android:layout_width="30px"
-        android:layout_height="30px"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="4px"
         android:layout_marginRight="10px"
         android:layout_marginTop="4px"
+        android:background="@drawable/store"
         >
     </ImageView>
 
@@ -17,16 +18,12 @@
         android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="2dp"
+
         >
     </TextView>
-    <TextView
-        android:id="@+id/txt2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp" >
-    </TextView>
+
 </LinearLayout> <!-- From: file:/Coke/development/Native/TrailheadNative/res/layout/rowlayout.xml -->

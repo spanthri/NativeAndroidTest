@@ -9,7 +9,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.coke.Main2Activity"
     android:orientation="vertical"
-    android:background="@color/yellow"
+    android:background="@drawable/cokebackground"
+    android:largeHeap="true"
+    android:id="@+id/activity2"
     android:weightSum="1">
 
     <Button
@@ -23,18 +25,20 @@
         android:onClick="sendLogin"
         android:background="@color/red"
         android:textColor="@color/yellow"
+        android:textSize="30sp"
         />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Continue without Signing Up"
+        android:text="Continue without Login"
         android:id="@+id/noSignUp"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="20dp"
         android:onClick="unAuthenticatedFlow"
         android:background="@color/red"
+        android:textSize="30sp"
         android:textColor="@color/yellow"
         />
 
