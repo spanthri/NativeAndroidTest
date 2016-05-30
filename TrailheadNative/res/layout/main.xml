@@ -8,10 +8,10 @@
 
 	<LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
 	    android:layout_height="wrap_content">
-		<Button android:id="@+id/fetch_contacts" android:layout_width="wrap_content"
+		<Button android:id="@+id/fetch_Offers" android:layout_width="wrap_content"
 		      android:layout_height="wrap_content"
 		      android:onClick="onFetchContactsClick"
-		      android:text="@string/fetch_contacts_button" />
+		      android:text="Fetch Offers" />
 		
 		<Button android:id="@+id/fetch_accounts" android:layout_width="wrap_content"
 		      android:layout_height="wrap_content"

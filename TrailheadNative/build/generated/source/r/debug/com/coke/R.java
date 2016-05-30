@@ -1691,8 +1691,8 @@ containing a value of this type.
         public static final int end_padder=0x7f0d0066;
         public static final int expand_activities_button=0x7f0d0025;
         public static final int expanded_menu=0x7f0d0038;
+        public static final int fetch_Offers=0x7f0d0056;
         public static final int fetch_accounts=0x7f0d0057;
-        public static final int fetch_contacts=0x7f0d0056;
         public static final int fingerprint_container=0x7f0d0070;
         public static final int home=0x7f0d0004;
         public static final int homeAsUp=0x7f0d000d;

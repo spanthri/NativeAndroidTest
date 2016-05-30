@@ -106,19 +106,55 @@ public class MainActivity extends SalesforceActivity {
 	 * @throws UnsupportedEncodingException 
 	 */
 	public void onFetchContactsClick(View v) throws UnsupportedEncodingException {
-        sendRequest("SELECT Name FROM Contact");
+
+
+		//sendRequest("SELECT Name, Geolocation__c  FROM Account WHERE DISTANCE(Geolocation__c, GEOLOCATION(40.5456381 -74.3955597), 'mi') < 100");
+		sendRequestOffers("SELECT OfferDescription__c, BarCode__c FROM Offers__c");
 	}
+
 
 	/**
 	 * Called when "Fetch Accounts" button is clicked
-	 * 
+	 *
 	 * @param v
-	 * @throws UnsupportedEncodingException 
+	 * @throws UnsupportedEncodingException
 	 */
 	public void onFetchAccountsClick(View v) throws UnsupportedEncodingException {
 		sendRequest("SELECT Name FROM Account");
-	}	
-	
+	}
+
+
+	private void sendRequestOffers(String soql) throws UnsupportedEncodingException {
+		RestRequest restRequest = RestRequest.getRequestForQuery(getString(R.string.api_version), soql);
+
+		client.sendAsync(restRequest, new AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, RestResponse result) {
+				try {
+					listAdapter.clear();
+					JSONArray records = result.asJSONObject().getJSONArray("records");
+					for (int i = 0; i < records.length(); i++) {
+						String OfferDescription = (records.getJSONObject(i).getString("OfferDescription__c")).toString();
+						String BarCode__c = (records.getJSONObject(i).getString("BarCode__c")).toString();
+
+						listAdapter.add(OfferDescription+"\n BarCode:       " + BarCode__c);
+					}
+				} catch (Exception e) {
+					onError(e);
+				}
+			}
+
+			@Override
+			public void onError(Exception exception) {
+				Toast.makeText(MainActivity.this,
+						MainActivity.this.getString(SalesforceSDKManager.getInstance().getSalesforceR().stringGenericError(), exception.toString()),
+						Toast.LENGTH_LONG).show();
+			}
+		});
+	}
+
+
+
 	private void sendRequest(String soql) throws UnsupportedEncodingException {
 		RestRequest restRequest = RestRequest.getRequestForQuery(getString(R.string.api_version), soql);
 
@@ -130,12 +166,12 @@ public class MainActivity extends SalesforceActivity {
 					JSONArray records = result.asJSONObject().getJSONArray("records");
 					for (int i = 0; i < records.length(); i++) {
 						listAdapter.add(records.getJSONObject(i).getString("Name"));
-					}					
+					}
 				} catch (Exception e) {
 					onError(e);
 				}
 			}
-			
+
 			@Override
 			public void onError(Exception exception) {
                 Toast.makeText(MainActivity.this,

@@ -53,6 +53,13 @@ public class UnAuthenticatedActivity extends Activity implements ResultInterface
         tv.setText(userName);
         listView.addHeaderView(tv);
 
+        listView.setBackground(getResources().getDrawable(R.drawable.sf__header_bg));
+        TextView tv1 = new TextView(this);
+        tv1.setBackgroundColor(getResources().getColor(R.color.sf__success_color));
+        tv1.setTextSize(18);
+        tv1.setText("Outlets within 100 miles");
+        listView.addHeaderView(tv1);
+
         accountListAdapter = new AccountListAdapter(this, listDatat);
         listView.setAdapter(accountListAdapter);
         setContentView(listView);

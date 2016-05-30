@@ -66,7 +66,8 @@ public class  RestMethodImpl implements RestMethodCalls {
                 }
 
             String userName = result.get("UserName").toString();
-
+            //String authorization = result.get("OAUTH").toString();
+            //System.out.println("OAUTH: " + authorization);
             text.add(userName);
             text.add(getResultFromEntity(entity));
 
